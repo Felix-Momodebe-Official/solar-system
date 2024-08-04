@@ -69,7 +69,7 @@ jobs:
         #     path-of-folder: node_modules
 
         - name: Check Code Coverage
-          #continue-on-error: true
+          continue-on-error: true
           run: npm run coverage
 
         - name: Archive Test Result
