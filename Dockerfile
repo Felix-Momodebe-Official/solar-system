@@ -12,7 +12,6 @@ ENV MONGO_URI=uriPlaceholder
 ENV MONGO_USERNAME=usernamePlaceholder
 ENV MONGO_PASSWORD=passwordPlaceholder
 
-LABEL name="felix-momodebe-official/solar-system"
 
 EXPOSE 3000
 
